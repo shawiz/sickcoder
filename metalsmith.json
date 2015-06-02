@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "title": "Sick Coder",
+    "description": "sick coder write sick code"
+  },
+  "plugins": {
+    "metalsmith-markdown": {},
+    "metalsmith-permalinks": {
+      "pattern": ":title"
+    },
+    "metalsmith-templates": {
+      "engine": "handlebars"
+    }
+  }
+}
